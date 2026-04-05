@@ -1,0 +1,136 @@
+i{
+    transition: 0.3s;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.icon-walk{
+    width: 1.25rem;
+    height: 1.25rem;
+    content: url("../img/icons/walk.svg");
+}
+.icon-drive{
+    width: 1.25rem;
+    height: 1.25rem;
+    content: url("../img/icons/drive.svg");
+}
+.icon-slaq{
+    content: url("../img/icons/slaq.svg");
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.sun-light{
+    content: url("../img/icons/sun-light.svg");
+}
+.hugeicons-floor{
+    content: url("../img/icons/hugeicons-floor.svg");
+}
+.oir-balcony{
+    content: url("../img/icons/oir-balcony.svg");
+}
+.guidance-elevator{
+    content: url("../img/icons/guidance-elevator.svg");
+}
+.air-conditioner{
+    content: url("../img/icons/air-conditioner.svg");
+}
+.healthicons-walki{
+    content: url("../img/icons/healthicons-walki.svg");
+}
+.dive-two{
+    content: url("../img/icons/dive-two.svg");
+}
+.icon-food{
+    content: url("../img/icons/food.svg");
+}
+.icon-retail{
+    content: url("../img/icons/retail.svg");
+}
+
+.icon-helth{
+    content: url("../img/icons/helth.svg");
+}
+.icon-education{
+    content: url("../img/icons/education.svg");
+}
+.icon-fitness{
+    content: url("../img/icons/fitness.svg");
+}
+
+.icon-finance{
+    content: url("../img/icons/finance.svg");
+}
+
+.icon-event{
+    content: url("../img/icons/event.svg");
+}
+.icon-services{
+    content: url("../img/icons/services.svg");
+}
+
+.icon-arrow-down{
+    content: url("../img/icons/arrow-down.svg");
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.icon-search{
+    content: url("../img/icons/search.svg");
+
+}
+.icon-heart{
+    content: url("../img/icons/heart.svg");
+
+}
+
+.icon-info{
+    width: 1.125rem;
+    height: 1.125rem;
+    content: url("../img/icons/info.svg");
+
+}
+.icon-arrow-top{
+    width: 1.25rem;
+    height: 1.25rem;
+    content: url("../img/icons/arrow-top.svg");
+
+}
+.light-camera{
+    content: url("../img/icons/light-camera.svg");
+
+}
+.moscow-metro{
+    content: url("../img/icons/moscow-metro.svg");
+}
+.icon-time{
+    content: url("../img/icons/time-half-pass.svg");
+
+}
+
+.icon-camera{
+    content: url("../img/icons/video-01.svg");
+
+}
+.icon-strollers{
+    content: url("../img/icons/strollers.svg");
+
+}
+.icon-bicycle{
+    content: url("../img/icons/bicycle.svg");
+
+}
+.icon-wheelchair{
+    content: url("../img/icons/wheelchair.svg");
+
+}
+.icon-fast-wind{
+    content: url("../img/icons/fast-wind.svg");
+}
+.icon-child{
+    content: url("../img/icons/child.svg");
+}
+.icon-beach{
+    content: url("../img/icons/beach.svg");
+}
+.arrow-top-white{
+    content: url("../img/icons/arrow-top-white.svg");
+}

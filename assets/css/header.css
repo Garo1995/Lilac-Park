@@ -1,0 +1,519 @@
+header {
+    width: 100%;
+    z-index: 999;
+    padding-top: 2.5rem;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding-bottom: 1.125rem;
+    transition: 0.4s;
+}
+
+.scrolled{
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: column;
+    width: 8.375rem;
+}
+
+.header-logo span{
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 90%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    color: rgba(26, 26, 26, 1);
+    font-family: 'TT Travels';
+}
+
+.header-logo small{
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 100%;
+    color: rgba(26, 26, 26, 0.5);
+    display: block;
+    margin-top: 0.125rem;
+}
+
+.header-main{
+    width: 100%;
+}
+
+.open-menu{
+    cursor: pointer;
+}
+
+.open-menu .icon-menu{
+    width: 1.625rem;
+    height: 1.625rem;
+    content: url("../img/icons/menu.svg");
+}
+
+.header-main-flex{
+    gap: 1rem;
+}
+
+.header-main-fave{
+    gap: 1rem;
+}
+
+.header-btn{
+    gap: 1rem;
+}
+
+.header-phone{
+    color: rgba(26, 26, 26, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: left;
+    margin-right: 0.625rem;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.btn-select{
+    white-space: nowrap;
+    transition: 0.3s;
+    border: 1px solid #754ABC;
+    border-radius: 2rem;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    background: unset;
+    color: #754ABC;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.btn-select:hover{
+    background: #754ABC;
+    color: #fff;
+}
+
+.btn-sign-up{
+    white-space: nowrap;
+    transition: 0.3s;
+    background: rgba(218, 199, 255, 1);
+    border-radius: 2rem;
+    gap: 0.5rem;
+    padding: 0.9375rem 1.6875rem;
+    color: rgba(117, 74, 188, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.close-menu{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.icon-close {
+    content: url('../img/icons/close.svg');
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.body_fix {
+    overflow: hidden;
+}
+.body_fix:before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transition: 0.3s;
+    backdrop-filter: blur(0.5rem);
+    background: rgba(0,0,0,.6);
+}
+
+.menu-content-title{
+    padding-top: 5rem;
+}
+
+.menu-content {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    height: 0;
+    overflow: hidden;
+    background: #754ABC;
+}
+
+.transition-menu {
+    height: 46.25rem;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.logo{
+    color: #FFFFFF;
+    max-width: 15.875rem;
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 98%;
+    text-transform: uppercase;
+    font-family: 'TT Travels';
+}
+
+.head-menu-main{
+    margin-top: 4.6875rem;
+    gap: 1rem;
+}
+
+.header-menu ul{
+    gap: 1rem;
+}
+
+.header-menu a{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    transition: 0.3s;
+    white-space: nowrap;
+    border-bottom: 1px solid transparent;
+}
+
+.header-menu a:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.documents-column{
+    gap: 1.25rem;
+    max-width: 21.875rem;
+    width: 100%;
+}
+.broker-office-name {
+    max-width: 24.8rem;
+}
+
+.documents-column h3 {
+    color: #FFFFFF;
+    line-height: 100%;
+    font-size: 1.2rem;
+}
+
+.documents-column h3 a{
+    color: #FFFFFF;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.documents-column h3 a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.documents-name{
+    gap: 0.375rem;
+}
+
+
+.documents-box{
+    gap: 0.375rem;
+}
+
+.documents-box ul{
+    gap: 0.375rem;
+    margin-top: 0.5rem;
+}
+
+.documents-box ul li a{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+}
+
+.documents-box ul li a:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.sales-office-center{
+    margin-top: 4.625rem;
+}
+
+.sales-office-time{
+    max-width: 18.125rem;
+    width: 100%;
+}
+
+.sales-office-time span{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+.sales-office-time p{
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 130%;
+}
+
+.header-btn-white{
+    gap: 1rem;
+}
+
+.header-btn-white .header-phone{
+    color: #FFFFFF;
+}
+
+.header-btn-white .btn-select{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.header-btn-white .btn-select:hover{
+    background: #FFFFFF;
+    color: #1A1A1A;
+}
+
+.header-btn-white .btn-sign-up{
+    background: #FFFFFF;
+    color: #1A1A1A;
+    border: 1px solid #FFFFFF;
+}
+
+.header-btn-white .btn-sign-up:hover{
+    background: unset;
+    color: #FFFFFF;
+}
+
+.card-favorite{
+    display: flex;
+    transition: 0.3s;
+    width: 1.625rem;
+}
+
+.card-favorite svg{
+    width: 100%;
+    height: 2.125rem;
+}
+
+.card-favorite:hover svg path{
+    stroke: #754ABC;
+}
+
+.ticker-fon{
+    background: #754ABC;
+    margin-top: 1.5rem;
+    z-index: 991;
+    overflow: hidden;
+}
+
+.ticker-slider{
+    pointer-events: none;
+}
+
+.item {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0.9375rem 0 0.75rem;
+}
+
+
+.swiper-container-free-mode>.swiper-wrapper {
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+@media (max-width: 85rem){
+    .header-phone {
+        font-size: 0.8rem;
+        margin-right: 0.2rem;
+    }
+    .btn-sign-up {
+        padding: 0.705rem 1.05rem;
+        font-size: 0.9rem;
+    }
+    .header-logo span {
+        font-size: 0.85rem;
+    }
+    .header-logo small {
+        font-size: 0.60rem;
+        margin-top: 0.125rem;
+    }
+    .header-logo {
+        width: 7.375rem;
+    }
+}
+@media (max-width: 75rem) {
+    .documents-column {
+        max-width: 12.875rem;
+    }
+    .broker-office-name {
+        max-width: 16.875rem;
+    }
+
+    .head-menu-main {
+        margin-top: 3.6875rem;
+    }
+    .btn-select {
+        padding: 0.835rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    .header-main-fave {
+        gap: 0.8rem;
+    }
+    .menu-content-title {
+        padding-top: 3rem;
+    }
+
+    header {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .documents-column h3 {
+        font-size: 1.1rem;
+    }
+    .menu-content .header-phone {
+        display: flex;
+        margin-right: 0;
+    }
+    .card-favorite {
+        width: 1.625rem;
+    }
+   header .btn {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 64rem) {
+    .head-menu-main {
+
+        flex-wrap: wrap;
+    }
+    .header-menu {
+        width: 48%;
+    }
+    .sales-office-center {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .documents-column {
+        max-width: 48%;
+        margin-top: 1.5rem;
+    }
+    .documents-column h3 {
+        line-height: 113%;
+        font-size: 1.2rem;
+    }
+    .transition-menu {
+        height: 100%;
+    }
+
+    .documents-column h3 {
+        font-size: 1.1rem;
+    }
+
+    .header-btn{
+        display: none;
+
+    }
+    .header-main-flex {
+        width: 100%;
+    }
+    .header-main-fave {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-content .container {
+        max-width: 48rem;
+    }
+
+    .head-menu-main {
+        margin-top: 2.4rem;
+    }
+    .sales-office-center {
+        margin-top: 3rem;
+    }
+    .header-btn-white {
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 1.5rem;
+    }
+    .header-phone {
+        font-size: 1.2rem;
+    }
+    .close-menu {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .menu-content-title {
+        padding-top: 2rem;
+    }
+    .head-menu-main {
+        margin-top: 2rem;
+    }
+    .header-menu a {
+        font-size: 0.9rem;
+    }
+    .header-menu ul {
+        gap: 0.6rem;
+    }
+    .documents-column {
+        gap: 0.80rem;
+    }
+
+    .documents-box ul li a {
+        font-size: 0.9rem;
+    }
+    .documents-column {
+        margin-top: 0.8rem;
+    }
+
+    .sales-office-center {
+        margin-top: 2rem;
+    }
+    .lilac-park-btn .btn {
+        max-width: 15.7rem;
+    }
+    .lilac-park-cnt {
+        min-height: 32.25rem;
+    }
+
+}
+
+@media (max-width: 48em) {
+
+}
+
+
+@media (max-width: 36rem) {
+    .header-logo{
+        display: none;
+    }
+}
