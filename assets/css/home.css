@@ -367,11 +367,15 @@ p {
         padding: 7.75rem 2.5rem 2rem;
         min-height: 35.25rem;
     }
-
+    .timer {
+        gap: 0.425rem;
+    }
     .timer-wrapper h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
+
         line-height: 105%;
     }
+
     .btn {
         padding: 0.8375rem 1.1rem;
         font-size: 0.9rem;
@@ -382,8 +386,13 @@ p {
 
         font-size: 0.9rem;
     }
-
-    .swiper-button-next, .swiper-button-prev {
+    .time-box span {
+        font-size: 0.75rem;
+        width: 2.4rem;
+        height: 1.405rem;
+        padding: 0.35rem 0.425rem 0.25rem;
+    }
+        .swiper-button-next, .swiper-button-prev {
         width: 2.2rem;
         height: 2.2rem;
     }
