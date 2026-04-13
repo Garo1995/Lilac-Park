@@ -242,7 +242,7 @@ header {
 
 .documents-box ul li a{
     color: #FFFFFF;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 100%;
     transition: 0.3s;
@@ -265,15 +265,15 @@ header {
 .sales-office-time span{
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 100%;
 }
 
 .sales-office-time p{
-    margin-top: 1rem;
-    font-weight: 400;
+    margin-top: 0.75rem;
     color: #FFFFFF;
     line-height: 130%;
+
 }
 
 .header-btn-white{
@@ -408,6 +408,10 @@ header {
    header .btn {
         margin-left: auto;
     }
+    footer .documents-column h3 {
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width: 64rem) {
@@ -419,7 +423,6 @@ header {
         width: 48%;
     }
     .sales-office-center {
-        flex-direction: column;
         align-items: flex-start;
     }
     .documents-column {
@@ -433,7 +436,24 @@ header {
     .transition-menu {
         height: 100%;
     }
-
+    header .btn-select {
+        max-width: 23.8rem;
+        width: 100%;
+    }
+    header .btn-sign-up{
+        max-width: 23.8rem;
+        width: 100%;
+    }
+    .header-btn-white {
+        gap: 0.6rem;
+        margin-top: 1.5rem;
+    }
+    .documents-column h3 {
+        font-size: 1rem;
+    }
+    .logo {
+        font-size: 1.600rem;
+    }
     .documents-column h3 {
         font-size: 1.1rem;
     }
@@ -442,6 +462,8 @@ header {
         display: none;
 
     }
+
+
     .header-main-flex {
         width: 100%;
     }
@@ -478,18 +500,15 @@ header {
     .head-menu-main {
         margin-top: 2rem;
     }
-    .header-menu a {
-        font-size: 0.9rem;
-    }
+
     .header-menu ul {
         gap: 0.6rem;
     }
     .documents-column {
         gap: 0.80rem;
     }
-
-    .documents-box ul li a {
-        font-size: 0.9rem;
+    .header-menu a {
+        font-size: 0.8rem;
     }
     .documents-column {
         margin-top: 0.8rem;
@@ -503,6 +522,31 @@ header {
     }
     .lilac-park-cnt {
         min-height: 32.25rem;
+    }
+    .documents-box ul li a {
+        font-size: 0.7rem;
+    }
+    .documents-box ul {
+        gap: 0.25rem;
+        margin-top: 0.2rem;
+    }
+    .header-btn-white {
+        margin-top: 0;
+    }
+    .btn-sign-up {
+        padding: 0.7rem 1rem;
+        font-size: 0.8rem;
+    }
+    .footer-office-center .header-phone {
+        font-size: 1.2rem;
+    }
+    .header-btn-white {
+        margin-top: 0;
+        align-items: self-end;
+    }
+    .sales-office-center {
+        flex-direction: column;
+        gap: 0.7rem;
     }
 
 }

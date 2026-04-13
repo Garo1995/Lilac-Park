@@ -2,6 +2,7 @@ i{
     transition: 0.3s;
     width: 1.5rem;
     height: 1.5rem;
+    display: flex;
 }
 .icon-walk{
     width: 1.25rem;
@@ -92,7 +93,6 @@ i{
     width: 1.25rem;
     height: 1.25rem;
     content: url("../img/icons/arrow-top.svg");
-
 }
 .light-camera{
     content: url("../img/icons/light-camera.svg");
@@ -103,24 +103,18 @@ i{
 }
 .icon-time{
     content: url("../img/icons/time-half-pass.svg");
-
 }
-
 .icon-camera{
     content: url("../img/icons/video-01.svg");
-
 }
 .icon-strollers{
     content: url("../img/icons/strollers.svg");
-
 }
 .icon-bicycle{
     content: url("../img/icons/bicycle.svg");
-
 }
 .icon-wheelchair{
     content: url("../img/icons/wheelchair.svg");
-
 }
 .icon-fast-wind{
     content: url("../img/icons/fast-wind.svg");
@@ -134,3 +128,7 @@ i{
 .arrow-top-white{
     content: url("../img/icons/arrow-top-white.svg");
 }
+.icon-dirty{
+    content: url("../img/icons/dirty.svg");
+}
+

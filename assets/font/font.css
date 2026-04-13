@@ -1,3 +1,48 @@
+
+@font-face {
+    font-family: 'TT Travels';
+    src: url('TTTravels-ExtraBold.eot');
+    src: local('TT Travels ExtraBold'), local('TTTravels-ExtraBold'),
+    url('TTTravels-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('TTTravels-ExtraBold.woff2') format('woff2'),
+    url('TTTravels-ExtraBold.woff') format('woff'),
+    url('TTTravels-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+/*=======================*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.eot');
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Montserrat-Regular.woff2') format('woff2'),
+    url('Montserrat-Regular.woff') format('woff'),
+    url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+    url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Montserrat-Medium.woff2') format('woff2'),
+    url('Montserrat-Medium.woff') format('woff'),
+    url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
 @font-face {
     font-family: 'Bounded';
     src: url('Bounded-Light.eot');
@@ -11,18 +56,7 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Bounded';
-    src: url('Bounded-ExtraLight.eot');
-    src: url('Bounded-ExtraLight.eot?#iefix') format('embedded-opentype'),
-    url('Bounded-ExtraLight.woff2') format('woff2'),
-    url('Bounded-ExtraLight.woff') format('woff'),
-    url('Bounded-ExtraLight.ttf') format('truetype'),
-    url('Bounded-ExtraLight.svg#Bounded-ExtraLight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 @font-face {
     font-family: 'Bounded';
@@ -119,42 +153,3 @@
 
 
 
-
-
-@font-face {
-    font-family: 'TT Travels';
-    src: url('TTTravels-Bold.eot');
-    src: local('TT Travels Bold'), local('TTTravels-Bold'),
-    url('TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
-    url('TTTravels-Bold.woff2') format('woff2'),
-    url('TTTravels-Bold.woff') format('woff'),
-    url('TTTravels-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-
-@font-face {
-    font-family: 'TT Travels';
-    src: url('TTTravels-ExtraBold.eot');
-    src: local('TT Travels ExtraBold'), local('TTTravels-ExtraBold'),
-    url('TTTravels-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('TTTravels-ExtraBold.woff2') format('woff2'),
-    url('TTTravels-ExtraBold.woff') format('woff'),
-    url('TTTravels-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Travels';
-    src: url('TTTravels-Black.eot');
-    src: local('TT Travels Black'), local('TTTravels-Black'),
-    url('TTTravels-Black.eot?#iefix') format('embedded-opentype'),
-    url('TTTravels-Black.woff2') format('woff2'),
-    url('TTTravels-Black.woff') format('woff'),
-    url('TTTravels-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
