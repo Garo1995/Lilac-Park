@@ -6,7 +6,7 @@ header {
     top: 0;
     background: #fff;
     padding-bottom: 1.125rem;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .scrolled{
@@ -366,7 +366,7 @@ header {
         margin-top: 0.125rem;
     }
     .header-logo {
-        width: 7.375rem;
+        width: 7.675rem;
     }
 }
 @media (max-width: 75rem) {
@@ -462,6 +462,15 @@ header {
         display: none;
 
     }
+    .scrolled {
+        padding-top: 0.9375rem;
+        padding-bottom: 0.9375rem;
+    }
+
+        header {
+            padding-top: 0.9375rem;
+            padding-bottom: 0.9375rem;
+        }
 
 
     .header-main-flex {
@@ -551,13 +560,28 @@ header {
 
 }
 
-@media (max-width: 48em) {
-
-}
-
 
 @media (max-width: 36rem) {
     .header-logo{
         display: none;
+    }
+    .documents-column h3 {
+        font-size: 1rem;
+    }
+    .documents-column {
+        gap: 0.80rem;
+        max-width: 100%;
+    }
+    .header-btn-white {
+        margin-top: 0;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .menu-content-title {
+        padding-top: 1rem;
+    }
+    .documents-column {
+        gap: 0.50rem;
     }
 }

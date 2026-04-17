@@ -33,6 +33,8 @@ let mortgageSwiper = new Swiper(".mortgage-slider", {
             slidesPerView: 2,
             slidesPerGroup: 1,
             spaceBetween: 10,
+            loop: true,
+
         },
         320: {
             slidesPerView: 1,
@@ -42,8 +44,8 @@ let mortgageSwiper = new Swiper(".mortgage-slider", {
         },
     },
     pagination: {
-        el: ".profe-pagination",
-        type: "fraction",
+        el: ".mortgage-pagination",
+        clickable: true,
     },
     navigation: {
         nextEl: ".mortgage-button-next",
@@ -66,25 +68,34 @@ let volumeSwiper = new Swiper(".volume-apart-slider", {
         el: ".swiper-scrollbar",
         hide: true,
     },
-
     breakpoints: {
         1199: {
             slidesPerView: 3.4,
             slidesPerGroup: 1,
             spaceBetween: 16,
         },
-        1024: {
+        1020: {
             slidesPerView: 3,
             slidesPerGroup: 1,
             spaceBetween: 10,
         },
-        768: {
-            slidesPerView: 2,
+        760: {
+            slidesPerView: 2.4,
+            slidesPerGroup: 1,
+            spaceBetween: 10,
+        },
+        570: {
+            slidesPerView: 2.1,
+            slidesPerGroup: 1,
+            spaceBetween: 10,
+        },
+        420: {
+            slidesPerView: 1.6,
             slidesPerGroup: 1,
             spaceBetween: 10,
         },
         320: {
-            slidesPerView: 1,
+            slidesPerView: 1.2,
             slidesPerGroup: 1,
             spaceBetween: 10,
         },
@@ -125,21 +136,35 @@ sliders.forEach((slider, idx) => {
 
 
 let projectSwiper = new Swiper(".project-ben-slider", {
-    slidesPerView: 3.2,
+    slidesPerView: 4,
     spaceBetween: 16,
+    navigation: {
+        nextEl: ".project-button-next",
+        prevEl: ".project-button-prev",
+    },
     breakpoints: {
         1199: {
+            slidesPerView: 4,
+            slidesPerGroup: 1,
+            spaceBetween: 16,
+        },
+        780: {
             slidesPerView: 3.2,
             slidesPerGroup: 1,
             spaceBetween: 16,
         },
-        760: {
-            slidesPerView: 3.2,
+        768: {
+            slidesPerView: 2.3,
             slidesPerGroup: 1,
             spaceBetween: 10,
         },
-        660: {
+        520: {
             slidesPerView: 2.1,
+            slidesPerGroup: 1,
+            spaceBetween: 10,
+        },
+        420: {
+            slidesPerView: 1.4,
             slidesPerGroup: 1,
             spaceBetween: 10,
         },
@@ -150,6 +175,9 @@ let projectSwiper = new Swiper(".project-ben-slider", {
         },
     },
 });
+
+
+
 
 
 
@@ -238,6 +266,11 @@ let gallerySwiper = new Swiper(".gallery-slider", {
 
 
 
+
+
+
+
+
 let favorableSwiper = new Swiper(".favorable-slider", {
     slidesPerView: 3,
     spaceBetween: 16,
@@ -247,10 +280,10 @@ let favorableSwiper = new Swiper(".favorable-slider", {
             spaceBetween: 16,
         },
         '760': {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 16,
         },
-        '620': {
+        '570': {
             slidesPerView: 2,
             spaceBetween: 16,
 
@@ -357,5 +390,106 @@ let galleryModSlider = new Swiper(".gallery-mod-slider", {
         nextEl: ".gallery-mod-button-next",
         prevEl: ".gallery-mod-button-prev",
     }
+});
+
+
+
+
+
+
+
+
+
+let commercialSwiper = new Swiper(".commercial-slider", {
+    slidesPerView: 2,
+    spaceBetween: 24,
+    loop: true,
+    breakpoints: {
+        '1020': {
+            slidesPerView: 2,
+            spaceBetween: 24,
+        },
+        '580': {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 8,
+        },
+    },
+    pagination: {
+        el: ".commercial-pagination",
+        clickable: true,
+    },
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+let ByCarSwiper = new Swiper(".by-car-slider", {
+    slidesPerView: 1,
+    spaceBetween: 8,
+    allowTouchMove: false,
+    breakpoints: {
+        '760': {
+            slidesPerView: 1,
+            spaceBetween: 8,
+        },
+        '500': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+            allowTouchMove: true,
+        },
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 8,
+            allowTouchMove: true,
+        },
+    },
+    pagination: {
+        el: ".by-car-pagination",
+        clickable: true,
+    },
+});
+
+
+let ByCarSwiperTwo = new Swiper(".by-car-slider-two", {
+    slidesPerView: 1,
+    spaceBetween: 8,
+    allowTouchMove: false,
+    breakpoints: {
+        '760': {
+            slidesPerView: 1,
+            spaceBetween: 8,
+        },
+        '500': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+            allowTouchMove: true,
+        },
+        '320': {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 8,
+            allowTouchMove: true,
+        },
+    },
+    pagination: {
+        el: ".by-car-pagination-two",
+        clickable: true,
+    },
 });
 

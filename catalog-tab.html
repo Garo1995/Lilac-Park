@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header-main G-align-center G-justify-between">
+            <div class="header-main-flex G-align-center">
+                <div class="open-menu G-align-center">
+                    <i class="icon-menu"></i>
+                </div>
+                <div class="header-main-fave G-align-center">
+                    <a href="index.html" class="header-logo">
+                        <span>сиреневый парк</span>
+                        <small>жилой комплекс</small>
+                    </a>
+                    <a href="#" class="btn menu-scroll G-center">Выбрать квартиру</a>
+                    <a href="./" class="card-favorite">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 7.69334C10 2.9989 3 3.4989 3 9.49893C3 15.499 12 20.4991 12 20.4991C12 20.4991 21 15.499 21 9.49893C21 3.4989 14 2.9989 12 7.69334Z"
+                                  stroke="#1A1A1A" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="header-btn G-align-center">
+                <a href="tel:+7 (495) 324-97-58" class="header-phone">+7 (495) 324-97-58</a>
+                <button class="btn-sign-up open_modal G-center" data-val="modal">Записаться на просмотр</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="menu-content">
+        <div class="container">
+            <div class="menu-content-title G-align-start G-justify-between">
+                <a href="#" class="logo">сиреневый парк</a>
+                <div class="close-menu">
+                    <i class="icon-close"></i>
+                </div>
+            </div>
+
+            <div class="head-menu-main G-align-start G-justify-between">
+                <div class="header-menu">
+                    <ul class="G-flex-column">
+                        <li><a href="#">Условия покупки</a></li>
+                        <li><a href="#">Бизнес-лайт</a></li>
+                        <li><a class="menu-scroll" href="#afi-development">Застройщик</a></li>
+                    </ul>
+                </div>
+                <div class="header-menu">
+                    <ul class="G-flex-column">
+                        <li><a href="">Новости</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="documents-column G-flex-column">
+                    <div class="documents-box G-flex-column">
+                        <div class="documents-name G-align-center">
+                            <i class="icon-slaq"></i>
+                            <h3>Документы</h3>
+                        </div>
+                        <ul class="G-flex-column">
+                            <li><a href="#" target="_blank">1 очередь</a></li>
+                            <li><a href="#" target="_blank">2 очередь</a></li>
+                            <li><a href="#" target="_blank">3 очередь</a></li>
+                            <li><a href="#" target="_blank">4 очередь</a></li>
+                        </ul>
+                    </div>
+                    <div class="documents-box G-flex-column">
+                        <h3>Нежилые помещения</h3>
+                        <ul class="G-flex-column">
+                            <li><a href="#">Подземный паркинг</a></li>
+                            <li><a href="#">Кладовые</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="documents-column broker-office-name  G-flex-column">
+                    <div class="documents-box G-flex-column">
+                        <a href="https://afi-development.itrielt.ru/auth" target="_blank"
+                           class="documents-name  G-align-center">
+                            <i class="icon-slaq"></i>
+                            <h3>Кабинет брокера</h3>
+                        </a>
+                    </div>
+                    <h3><a href="#">Коммерческие помещения</a></h3>
+
+
+                    <div class="documents-box G-flex-column">
+                        <h3>Выбрать квартиру</h3>
+                        <ul class="G-flex-column">
+                            <li><a href="#">На генплане</a></li>
+                            <li><a href="#">По параметрам</a></li>
+                            <li><a href="#">Ипотечный калькулятор</a></li>
+                            <li><a class="menu-scroll" href="#finishing">Отделка</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sales-office-center G-align-end G-justify-between">
+                <div class="sales-office-time">
+                    <span>Офис продаж</span>
+                    <p>
+                        г. Москва, Открытое шоссе, 22
+                        Часы работы: с 9:00 до 21:00
+                    </p>
+                </div>
+                <div class="header-btn-white G-align-center">
+                    <a href="tel:+7 (495) 324-97-58" class="header-phone">+7 (495) 324-97-58</a>
+                    <a href="#commercial" class="btn-select menu-scroll G-center">Выбрать квартиру</a>
+                    <button class="btn-sign-up open_modal G-center" data-val="modal">Записаться на просмотр</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="catalog-main">
+    <div class="container">
+        <div class="catalog-title G-align-end G-justify-between">
+            <h1>Выбор
+                <span>квартиры <i class="icon-arrow-apartments"></i></span>
+
+            </h1>
+            <div class="catalog-btn G-align-center">
+                <a href="./general-plan.html" class="btn-lin G-center">На генплане</a>
+                <a href="./catalog.html" class="btn-sign-up G-center">По параметрам</a>
+            </div>
+        </div>
+
+        <div class="href-catalog-pric G-justify-between G-align-center">
+            <div class="price-ascending G-align-center">
+                <div class="price-ascending-click G-align-center">
+                    <span>По цене — возрастание</span>
+                    <i class="icon-arrow-down"></i>
+                </div>
+                <div class="price-ascending-down">
+                    <ul class="G-flex-column">
+                        <li>По возрастанию цены</li>
+                        <li>По площади</li>
+                        <li>По максимальной скидке в рублях</li>
+                        <li>По убыванию цены</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="href-catalog-name G-align-center">
+                <a href="./catalog.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path d="M16 0C17.1046 0 18 0.895431 18 2V16C18 17.0357 17.2128 17.887 16.2041 17.9893L16 18H2L1.7959 17.9893C0.854346 17.8938 0.1062 17.1457 0.0107422 16.2041L0 16V2C0 0.895431 0.895431 8.05319e-09 2 0H16ZM2 1C1.44772 1 1 1.44772 1 2V9H7V7.5C7 7.22386 7.22386 7 7.5 7C7.77614 7 8 7.22386 8 7.5V11.5C8 11.7761 7.77614 12 7.5 12C7.22386 12 7 11.7761 7 11.5V10H1V16C1 16.5523 1.44772 17 2 17H7V14.5C7 14.2239 7.22386 14 7.5 14C7.77614 14 8 14.2239 8 14.5V17H16C16.5523 17 17 16.5523 17 16V10H10.5C10.2239 10 10 9.77614 10 9.5C10 9.22386 10.2239 9 10.5 9H17V2C17 1.44772 16.5523 1 16 1H8V3.5C8 3.77614 7.77614 4 7.5 4C7.22386 4 7 3.77614 7 3.5V1H2Z" fill="black"/>
+                    </svg>
+                </a>
+                <a href="./catalog-tab.html" class="href-catalog-act">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <rect x="1" y="3" width="18" height="1" rx="0.5" fill="black"/>
+                        <rect x="1" y="9" width="18" height="1" rx="0.5" fill="black"/>
+                        <rect x="1" y="15" width="18" height="1" rx="0.5" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="filter-mobile">
+            <span>Фильтр</span>
+            <div class="open-filter"><i class="icon-filter"></i></div>
+        </div>
+        <div class="commercial-flex standard-mort-qert G-align-start G-justify-between">
+            <div class="commercial-filter">
+                <div class="filter-mobile-name">
+                    <h3>Фильтр</h3>
+                    <div class="close-filter">
+                        <i class="icon-close"></i>
+                    </div>
+                </div>
+                <div class="filter-main">
+                    <div class="filter-search">
+                        <button class="filter-search-btn"><i class="icon-search"></i></button>
+                        <label>
+                            <input type="text" placeholder="Поиск по номеру">
+                        </label>
+                    </div>
+
+                    <div class="filter-range">
+                        <div class="filter-block">
+                            <div class="label">Стоимость, млн ₽ <span class="values" id="price-val">15 - 24</span></div>
+                            <div class="slider-container">
+                                <input type="range" min="0" max="100" value="10" id="price-min">
+                                <input type="range" min="0" max="100" value="34" id="price-max">
+                                <div class="track" id="price-track"></div>
+                            </div>
+                        </div>
+
+                        <div class="filter-block">
+                            <div class="label">Цена, м² / тыс. ₽ <span class="values" id="sqm-val">366 - 386</span>
+                            </div>
+                            <div class="slider-container">
+                                <input type="range" min="300" max="500" value="306" id="sqm-min">
+                                <input type="range" min="300" max="500" value="386" id="sqm-max">
+                                <div class="track" id="sqm-track"></div>
+                            </div>
+                        </div>
+
+                        <div class="filter-block">
+                            <div class="label">Площадь, м² <span class="values" id="area-val">18.3 - 24.8</span></div>
+                            <div class="slider-container">
+                                <input type="range" min="10" max="50" value="18.3" step="0.1" id="area-min">
+                                <input type="range" min="10" max="50" value="24.8" step="0.1" id="area-max">
+                                <div class="track" id="area-track"></div>
+                            </div>
+                        </div>
+
+                        <div class="filter-block">
+                            <div class="label">Этаж <span class="values" id="floor-val">2-25</span></div>
+                            <div class="slider-container">
+                                <input type="range" min="1" max="50" value="2" id="floor-min">
+                                <input type="range" min="1" max="50" value="25" id="floor-max">
+                                <div class="track" id="floor-track"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="accordion" class="accordion G-flex-column">
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Очередь</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Любая</small>
+                                        <input type="radio" name="queue">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Вторая</small>
+                                        <input type="radio" name="queue">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Третья</small>
+                                        <input type="radio" name="queue">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Четвертая</small>
+                                        <input type="radio" name="queue">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Корпус</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Любой</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>1</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>2</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>3</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>4</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>7А</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>7В</small>
+                                        <input type="radio" name="frame">
+                                        <span class="radiobtn"></span>
+                                    </label>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Секция</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Любой</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>1</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>2</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>3</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>4</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>5</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>6</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>7</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>8</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>9</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>10</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>11</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>12</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>13</small>
+                                        <input type="radio" name="section">
+                                        <span class="radiobtn"></span>
+                                    </label>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Срок сдачи</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Любой</small>
+                                        <input type="radio" name="date">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>2026</small>
+                                        <input type="radio" name="date">
+                                        <span class="radiobtn"></span>
+                                    </label>
+
+                                    <label class="check-radio">
+                                        <small>Сдан</small>
+                                        <input type="radio" name="date">
+                                        <span class="radiobtn"></span>
+                                    </label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Отделка</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Любая</small>
+                                        <input type="radio" name="finishing">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Без отделки</small>
+                                        <input type="radio" name="finishing">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Предчистовая</small>
+                                        <input type="radio" name="finishing">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>Чистовая</small>
+                                        <input type="radio" name="finishing">
+                                        <span class="radiobtn"></span>
+                                    </label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-box">
+                            <div class="accordion-click link">
+                                <span>Скидка</span>
+                                <i class="icon-arrow-down"></i>
+                            </div>
+                            <div class="submenu">
+                                <div class="filter-checked">
+                                    <label class="check-radio">
+                                        <small>Все</small>
+                                        <input type="radio" name="discount">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>15%</small>
+                                        <input type="radio" name="discount">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>18%</small>
+                                        <input type="radio" name="discount">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                    <label class="check-radio">
+                                        <small>23%</small>
+                                        <input type="radio" name="discount">
+                                        <span class="radiobtn"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-btn G-flex-column G-align-center">
+                        <button class="btn">Показать 365 результатов</button>
+                        <button class="btn-select">Сбросить фильтры</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="standard-mort-glob">
+                <div class="standard-mort-cont">
+                    <div class="standard-mort-width">
+                        <div class="standard-mort-tab">
+                            <ul>
+                                <li>№ </li>
+                                <li>Корпус</li>
+                                <li>Площадь, м²</li>
+                                <li>Комнат</li>
+                                <li>Этаж</li>
+                                <li>Сдача</li>
+                                <li>Скидка</li>
+                                <li>Стоимость</li>
+                            </ul>
+                        </div>
+                        <div class="stand-discount-col G-flex-column">
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stand-discount-line G-align-start G-justify-between">
+                                <ul>
+                                    <li>1</li>
+                                    <li>К7В/11</li>
+                                    <li>38.8м²</li>
+                                    <li>4</li>
+                                    <li>12/24</li>
+                                    <li>Сдан</li>
+                                    <li>20%</li>
+                                </ul>
+                                <div class="stand-discount-start G-align-start">
+                                    <div class="stand-disc-col G-flex-column ">
+                                        <div class="stand-disc-price G-align-center">
+                                            <del>12 987 890₽</del>
+                                            <div class="valid-payment-info">
+                                                <i class="icon-info"></i>
+                                                <div class="valid-payment-text">
+                                                    <p>Cкидка действует при 100% оплате или по стандартной ипотеке.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <strong>12 987 890₽</strong>
+                                    </div>
+                                    <div class="stand-disc-cent G-align-center">
+                                        <a href="#" class="fave-heart">
+                                            <i class="icon-fave-heat"></i>
+                                        </a>
+                                        <a href="#" class="downl-pdf" download="">
+                                            <i class="icon-pdf-icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-more-catalog G-justify-center">
+                    <button class="btn">Показать еще</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="footer-office-center G-align-start G-justify-between">
+            <div class="footer-title">
+                <a href="#" class="logo-foot">сиреневый парк</a>
+                <div class="sales-office-time">
+                    <span>Офис продаж</span>
+                    <p>
+                        г. Москва, Открытое шоссе, 22
+                    </p>
+                    <p>Часы работы: с 9:00 до 21:00</p>
+                </div>
+            </div>
+            <div class="footer-contact G-flex-column G-align-end">
+                <a href="tel:+7 (495) 324-97-58" class="header-phone">+7 (495) 324-97-58</a>
+                <div class="header-btn-white G-align-center">
+                    <a href="#commercial" class="btn-select menu-scroll G-center">Выбрать квартиру</a>
+                    <button class="btn-sign-up G-center">Записаться на просмотр</button>
+                </div>
+            </div>
+        </div>
+        <div class="head-menu-main G-align-start G-justify-between">
+            <div class="header-menu">
+                <ul class="G-flex-column">
+                    <li><a href="#">Условия покупки</a></li>
+                    <li><a href="#">Бизнес-лайт</a></li>
+                    <li><a class="menu-scroll" href="#afi-development">Застройщик</a></li>
+                    <li><a href="#">Динамика стройки</a></li>
+                </ul>
+            </div>
+            <div class="header-menu">
+                <ul class="G-flex-column">
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Галерея</a></li>
+                </ul>
+            </div>
+            <div class="documents-column G-flex-column">
+                <div class="documents-box G-flex-column">
+                    <div class="documents-name G-align-center">
+                        <i class="icon-slaq"></i>
+                        <h3>Документы</h3>
+                    </div>
+                    <ul class="G-flex-column">
+                        <li><a href="#" target="_blank">1 очередь</a></li>
+                        <li><a href="#" target="_blank">2 очередь</a></li>
+                        <li><a href="#" target="_blank">3 очередь</a></li>
+                        <li><a href="#" target="_blank">4 очередь</a></li>
+                    </ul>
+                </div>
+                <div class="documents-box G-flex-column">
+                    <h3>Нежилые помещения</h3>
+                    <ul class="G-flex-column">
+                        <li><a href="#">Подземный паркинг</a></li>
+                        <li><a href="#">Кладовые</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="documents-column G-flex-column">
+                <div class="documents-box G-flex-column">
+                    <a href="https://afi-development.itrielt.ru/auth" target="_blank"
+                       class="documents-name G-align-center">
+                        <i class="icon-slaq"></i>
+                        <h3>Кабинет брокера</h3>
+                    </a>
+                </div>
+                <div class="documents-name G-align-center">
+                    <i class="icon-slaq"></i>
+                    <h3><a href="#">Коммерческие помещения</a></h3>
+                </div>
+                <div class="documents-box G-flex-column">
+                    <h3>Выбрать квартиру</h3>
+                    <ul class="G-flex-column">
+                        <li><a href="#">На генплане</a></li>
+                        <li><a href="#">По параметрам</a></li>
+                        <li><a href="#">Ипотечный калькулятор</a></li>
+                        <li><a class="menu-scroll" href="#finishing">Отделка</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="office-time-mobile sales-office-time">
+            <span>Офис продаж</span>
+            <p>
+                г. Москва, Открытое шоссе, 22
+            </p>
+            <p>Часы работы: с 9:00 до 21:00</p>
+        </div>
+        <div class="footer-policy G-align-center ">
+            <a href="./assets/img/policy.pdf" target="_blank">Политика конфиденциальности</a>
+            <p>Не является публичной офертой</p>
+        </div>
+    </div>
+</footer>
+
+
+<div class="cookie">
+    <p class="cookie__text">
+        Мы обрабатываем cookies, чтобы сделать наш сайт удобнее и персонализированее для вас.
+        Политика использования <a class="cookie__link" href="./cookie.pdf" target="_blank">cookies</a> и
+        <a class="cookie__link" href="./data_protection.pdf" target="_blank">защита данных</a>
+    </p>
+    <button class="cookie__btn">Принять</button>
+</div>
+
+
+<script src="assets/js/jquery-3.6.4.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="https://snipp.ru/cdn/maskedinput/jquery.maskedinput.min.js"></script>
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/frame.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/calculator.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/time.js"></script>
+</body>
+</html>

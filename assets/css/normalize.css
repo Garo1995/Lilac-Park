@@ -189,25 +189,25 @@ textarea{
 @media (max-width: 64rem) {
     .container {
         max-width: 52rem;
+        padding: 0 1rem;
     }
 }
 
-/* ≥768px */
-@media (max-width: 48rem) {
+@media (max-width: 47.9375rem) {
 
     .container {
         max-width: 48rem;
     }
+
 }
 
-
-/* ≥576px */
 @media (max-width: 36rem) {
-    .container {
-        max-width: 33.75rem;
-    }
-}
 
+    .container {
+        padding: 0 0.6rem;
+    }
+
+}
 
 
 

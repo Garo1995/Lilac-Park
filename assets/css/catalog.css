@@ -1,0 +1,564 @@
+.catalog-main{
+    margin-top: 2rem;
+}
+.catalog-title{
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.catalog-title h1{
+    color: #1A1A1A;
+    max-width: 35rem;
+    width: 100%;
+}
+.catalog-title h1 span{
+    color: #754ABC;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.catalog-btn{
+    gap: 0.5rem;
+}
+.icon-arrow-apartments{
+    content: url("../img/icons/arrow-apartments.svg");
+    width: 3.625rem;
+    height: 3.625rem;
+    margin-top: -4px;
+}
+
+
+
+.href-catalog-pric{
+    margin-top: 3.25rem;
+}
+
+.btn-lin{
+    transition: 0.3s;
+    border: 1px solid #686868;
+    border-radius: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #686868;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 99%;
+    background: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-lin:hover{
+    background: #754ABC;
+    border: 1px solid #754ABC;
+    color: #FBF9ED;
+}
+.btn-lin-act{
+    background: #754ABC;
+    border: 1px solid #754ABC;
+    color: #FBF9ED;
+}
+.catalog-btn .btn-sign-up{
+    font-weight: 400;
+    background: #754ABC;
+    color: #FFFFFF;
+}
+
+.see-more-catalog{
+    margin-top: 2.5rem;
+}
+
+
+.catalog-main .price-ascending {
+    max-width: 28.75rem;
+    position: relative;
+    width: 100%;
+}
+.href-catalog-name{
+    gap: 0.5rem;
+    margin-left: 2rem;
+}
+.href-catalog-name a{
+    background: #6364660D;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.href-catalog-name .href-catalog-act{
+    background: #754ABC1F;
+
+}
+.href-catalog-act svg path{
+    fill: #754ABC;
+}
+.price-ascending-number{
+    gap: 0.5rem;
+    max-width: 8.9375rem;
+    width: 100%;
+}
+.price-ascending-number span{
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 100%;
+    color: #1A1A1A;
+}
+.price-ascending-number input{
+    width: 99px;
+    border-bottom: 1px solid #1A1A1A;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 100%;
+    color: #1A1A1A;
+}
+
+
+.price-ascending-click {
+    gap: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: auto;
+    width: max-content;
+}
+
+.price-ascending-click span {
+    color: #1A1A1A;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 100%;
+}
+
+.price-ascending-act .price-ascending-click .icon-arrow-down {
+    transform: rotate(-180deg);
+}
+
+
+.price-ascending-down {
+    top: 2.25rem;
+    right: 0;
+    position: absolute;
+    background: #5E4D6D;
+    border: 1.24px solid #4F4F4F;
+    width: 25.825rem;
+    padding: 0.875rem 1.2rem;
+    border-radius: 20px;
+    display: none;
+    z-index: 991;
+}
+
+.price-ascending-act .price-ascending-down {
+    display: block;
+}
+
+.price-ascending-down ul {
+    gap: 0.5rem;
+}
+
+.price-ascending-down li {
+    width: 100%;
+    padding: 0.5rem 0.625rem;
+    border-radius: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.price-ascending-down li:hover {
+    background: #FFFFFF7D;
+
+}
+
+
+.standard-mort-cont{
+    width: 100%;
+}
+.standard-mort-tab ul{
+    display: flex;
+    align-items: center;
+
+}
+.standard-mort-tab ul li{
+    color: #AEAEAE;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 100%;
+    letter-spacing: -2%;
+    padding: 1.5rem 0.5625rem 0;
+    width: 5rem;
+
+}
+.standard-mort-tab ul li:first-child{
+    width: 3.75rem;
+}
+.standard-mort-tab ul li:nth-child(3){
+    width: 8.125rem;
+}
+.stand-discount-col{
+    border-top: 1px solid #AEAEAE;
+    margin-top: 3.1875rem;
+    gap: 1.125rem;
+}
+.stand-discount-line{
+    padding-top: 3rem;
+}
+
+.stand-discount-line ul{
+    display: flex;
+}
+.stand-discount-line ul li{
+    color: #2F2E2E;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    letter-spacing: -2%;
+    width: 5rem;
+    text-align: center;
+}
+.stand-discount-line ul li:first-child{
+    width: 3.75rem;
+    text-align: left;
+    padding-left: 0.625rem;
+}
+.stand-discount-line ul li:nth-child(3){
+    width: 7.6875rem;
+}
+
+.stand-disc-col{
+    gap: 4px;
+}
+.stand-disc-col strong{
+    color: #754ABC;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.stand-disc-col del{
+    color: #4F4F4F;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: right;
+    opacity: 0.50;
+    margin-right: 4px;
+}
+
+.stand-disc-cent {
+    gap: 0.5rem;
+}
+
+.fave-heart{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #754ABC;
+    background: #754ABC;
+
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-fave-heat{
+    content: url("../img/icons/fave-heat.svg");
+}
+
+.downl-pdf{
+    border: 1px solid #754ABC;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-pdf-icon{
+    content: url("../img/icons/pdf-icon.svg");
+
+}
+.downl-pdf:hover{
+    background: #754ABC;
+}
+.downl-pdf:hover .icon-pdf-icon{
+    filter: brightness(0) invert(1);
+
+}
+.stand-discount-start{
+    gap: 0.2rem;
+}
+.standard-mort-glob{
+    width: 100%;
+}
+
+@media (max-width: 85rem) {
+    .catalog-title h1 {
+        max-width: 30rem;
+        font-size: 2.7rem;
+    }
+    .icon-arrow-apartments {
+        width: 2.625rem;
+        height: 2.625rem;
+        margin-top: -3px;
+    }
+    .btn-lin {
+        padding: 0.65rem 1.2rem;
+        font-size: 1rem;
+    }
+    .price-ascending-number input {
+        width: 90px;
+        font-size: 1rem;
+    }
+    .price-ascending-number {
+        max-width: 7.9375rem;
+    }
+    .stand-discount-line ul li {
+        font-size: 0.9rem;
+        width: 4rem;
+    }
+    .standard-mort-tab ul li {
+        font-size: 0.775rem;
+        width: 4rem;
+    }
+    .stand-discount-col {
+        margin-top: 2.1875rem;
+        gap: 1rem;
+    }
+    .stand-discount-line ul li:first-child {
+        width: 2.75rem;
+    }
+    .standard-mort-tab ul li:first-child {
+        width: 2.75rem;
+    }
+    .standard-mort-tab ul li:nth-child(3) {
+        width: 7.125rem;
+    }
+    .fave-heart {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-fave-heat {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .downl-pdf {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-pdf-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .stand-disc-col strong {
+        font-size: 1rem;
+        line-height: 1.55rem;
+    }
+    .stand-disc-col del {
+        font-size: 0.85rem;
+        margin-right: 3px;
+    }
+    .stand-discount-line ul li:nth-child(3) {
+        width: 6.5rem;
+    }
+    .standard-mort-tab ul li {
+        font-size: 0.775rem;
+    }
+
+
+}
+@media (max-width: 75rem){
+    .stand-discount-start {
+        flex-direction: column;
+    }
+    .standard-mort-tab ul li {
+        font-size: 0.775rem;
+        width: 4.3rem;
+    }
+    .stand-discount-line ul li {
+        font-size: 0.85rem;
+        width: 4.3rem;
+    }
+
+
+
+}
+@media (max-width: 64rem){
+
+    .catalog-cards .commercial-box {
+        width: calc(50% - 8px);
+    }
+    .catalog-cards .commercial-info .btn{
+        display: none;
+    }
+
+    .commercial-price {
+        gap: 7px;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .commercial-wrap {
+        gap: 1rem;
+    }
+    .catalog-title {
+        gap: 1.5rem;
+    }
+    .btn-lin {
+        padding: 0.55rem 1rem;
+        font-size: 0.8rem;
+    }
+    .href-catalog-pric {
+        margin-top: 2rem;
+    }
+    .price-ascending-down li {
+        padding: 0.5rem 0.625rem;
+        font-size: 0.82rem;
+    }
+    .price-ascending-down ul {
+        gap: 0.3rem;
+    }
+
+    .price-ascending-down {
+        top: 1.75rem;
+        width: 22.525rem;
+        padding: 0.875rem 1.2rem;
+    }
+    .price-ascending-click {
+        gap: 1rem;
+    }
+
+    .price-ascending-click span {
+        font-size: 1rem;
+    }
+    .catalog-main .price-ascending {
+        max-width: 25.75rem;
+    }
+    .catalog-title h1 {
+        max-width: 23rem;
+        font-size: 2.6rem;
+    }
+    .stand-discount-start {
+        flex-direction: unset;
+        gap: 0.7rem;
+    }
+    .stand-discount-line ul li:first-child {
+        width: 3.75rem;
+    }
+    .stand-discount-line ul li {
+        width: 5rem;
+    }
+    .stand-discount-line ul li:nth-child(3) {
+        width: 7.2rem;
+    }
+    .stand-discount-line {
+        padding-top: 2rem;
+    }
+    .standard-mort-tab ul li:first-child {
+        width: 3.75rem;
+        text-align: left;
+    }
+    .standard-mort-tab ul li {
+        font-size: 0.775rem;
+        width: 5rem;
+    }
+
+    .standard-mort-tab ul li {
+        font-size: 0.795rem;
+        text-align: center;
+    }
+    .standard-mort-tab ul li:nth-child(3) {
+        width: 8.125rem;
+    }
+    .standard-mort-tab ul li {
+        padding: 0.5rem 0.5625rem 0;
+    }
+    .standard-mort-cont{
+        overflow-x: scroll;
+        padding-bottom: 24px;
+    }
+    .standard-mort-cont::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    .standard-mort-cont::-webkit-scrollbar-thumb {
+        width: 0;
+        height: 0;
+    }
+    .standard-mort-width{
+        width: 830px;
+        padding-right: 10px;
+    }
+    .stand-discount-line ul li {
+        font-size: 0.95rem;
+    }
+    .standard-mort-qert {
+        margin-top: 1.5rem;
+        gap: 1.5rem;
+        margin-right: -9.5px;
+    }
+}
+@media (max-width: 47.5rem){
+    .price-ascending{
+        display: none;
+    }
+    .href-catalog-pric {
+        margin-top: 1.5rem;
+    }
+    .filter-mobile {
+        margin-top: 1.5rem;
+    }
+    .catalog-title h1 {
+        font-size: 2.3rem;
+    }
+    .icon-arrow-apartments {
+        width: 2.225rem;
+        height: 2.225rem;
+        margin-top: 2px;
+    }
+}
+@media (max-width: 34rem){
+    .catalog-cards .commercial-box {
+        width: 100%;
+    }
+    .catalog-cards .comme-line-info {
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .see-more-catalog {
+        margin-top: 32px;
+    }
+
+    .btn-lin {
+        padding: 9px 15px;
+        white-space: nowrap;
+        font-size: 12px;
+
+    }
+}
+
+
+@media (max-width: 370px){
+    .catalog-cards .commercial-box {
+        width: 100%;
+    }
+    .catalog-cards .comme-line-info {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+    }
+}

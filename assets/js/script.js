@@ -1,13 +1,15 @@
-
-
 document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector("header");
 
+    let isScrolled = false;
+
     window.addEventListener("scroll", function () {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 100 && !isScrolled) {
             header.classList.add("scrolled");
-        } else {
+            isScrolled = true;
+        } else if (window.scrollY < 80 && isScrolled) {
             header.classList.remove("scrolled");
+            isScrolled = false;
         }
     });
 });
@@ -167,6 +169,14 @@ $(function () {
 
 
 
+$('.price-ascending-click').on('click', function () {
+    $(this).parent().toggleClass('price-ascending-act');
+})
+
+
+$('.price-ascending-down li').on('click', function () {
+    $('.price-ascending').removeClass('price-ascending-act');
+})
 
 
 
